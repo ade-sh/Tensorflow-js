@@ -102,7 +102,7 @@ async function AsyTrain() {
       },
     },
 });
-statusL.html(stat+'<br>Loss:'+history.history.loss[0]);
+statusL.html(stat+'<br>Loss:'+floor(history.history.loss[0]));
 }
 
 
